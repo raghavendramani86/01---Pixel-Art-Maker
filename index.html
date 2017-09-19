@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <title>Pixel Art Maker</title>
+  </head>
+  <body>
+    <main class="main">
+      <header class="row header"><h2>Pixel Art Maker</h2></header>
+      <hr>
+      <div class="row array">
+        <div class="row inputs">
+          <label class="label col-4">Rows</label>
+          <input class="value col-4" type="text" name="rows" value="5">
+          <label class="label col-4">Columns</label>
+          <input class="value col-4"type="text" name="columns" value="5">
+        </div>
+        <div class="row buttons inputs">
+          <button class="col-4 make">Make Grid</button>
+          <button class="col-4 remove">Remove Grid</button>
+        </div>
+      </div>
+      <hr>
+      <section class="row color-settings">
+        <div class="col-2 color-settings">
+          <p class="col-1">Color Selector</p>
+          <p class="col-1"><input type="color" name="color" value="#9fab9e"></p>
+        </div>
+        <div class="col-2 color-settings">
+          <p class="col-1">Draw Selector</p>
+          <p class="col-3"><input class="radio" type="radio" name="click" value="Click" checked>Click</p>
+          <p class="col-2"><input class="radio" type="radio" name="mouseover" value="Mouseover">Mouseover</p>
+        </div>
+      </section>
+      <!-- dynamic elements go here -->
+      <section class="row grid"></section>
+      <hr>
+      <footer>
+        <button class="reset">Reset Colors</button>
+        <!-- <button class="remove">Remove Grid</button> -->
+      </footer>
+    </main>
+    <!-- linking the js file -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
