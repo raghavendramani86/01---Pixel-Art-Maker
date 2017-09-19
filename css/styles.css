@@ -1,0 +1,109 @@
+body {
+  /*box dimensions*/
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+  border: 1px #ddd solid;
+
+  /*alignment*/
+  position: relative;
+  align-self: center;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.main {
+  /*box dimensions*/
+  border: 1px solid ;
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+
+  /*alignment*/
+  align-self: center;
+
+  background: #00838f;
+}
+
+.header {
+  /*box dimensions*/
+  border: 1px solid;
+  margin: auto;
+  /*alignment*/
+  text-align: center;
+  align-items: center;
+
+  background: #4db6ac ;
+}
+
+.array {
+  /*box dimensions*/
+  border: 1px solid;
+  background: #4db6ac ;
+}
+
+.inputs {
+  /*alignment*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.value {
+  /*box dimensions*/
+  border: 1px #ddd solid;
+  width: 100%;
+  /*alignment*/
+  text-align: center;
+  justify-content: center;
+}
+
+.label {
+  /*box dimensions*/
+  border: 1px #ddd solid;
+  width: 100%;
+  /*alignment*/
+  text-align: center;
+  justify-content: center;
+  background: #ccc;
+}
+
+.buttons {
+  /*box dimensions*/
+  /*border: 1px #ddd solid;*/
+  padding: 10px;
+  width: 100%;;
+  background-blend-mode: difference;
+}
+
+.color-settings {
+  /*alignment*/
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px #ddd solid;
+  background: #4db6ac ;
+}
+
+.grid {
+  /*box dimensions*/
+  border: 1px #ddd solid;
+  justify-content: center;
+  background: #4db6ac;
+}
+
+.gridrow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.gridcol {
+  width: 20px;
+  height: 20px;
+  border: 1px #ddd solid;
+}
+
+footer {
+  background: #4db6ac;
+}
